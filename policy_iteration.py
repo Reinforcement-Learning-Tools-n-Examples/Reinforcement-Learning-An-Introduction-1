@@ -52,7 +52,7 @@ def cost_modification(action, state):
 def p_build_function(state, action):
     """Return the conditional probabilities p(s', r | state, action) as a dictionary for fixed state and action
 
-    Note: Action has to be meaningful (e.g., an element from function available_actions_range
+    Note: action has to be meaningful (e.g., an element from function available_actions_range
 
     """
 
